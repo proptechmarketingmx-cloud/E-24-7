@@ -111,3 +111,9 @@ def get_product_info(nombre_producto: str) -> dict[str, Any] | None:
 def initialize_database() -> None:
     """Compatibility wrapper for the original project entry point."""
     init_db()
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    init_db()
+    seed_db()
