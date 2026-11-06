@@ -1,0 +1,5 @@
+python-dotenv>=1.0,<2.0
+openai>=1.0,<2.0
+elevenlabs>=1.0,<2.0
+requests>=2.31,<3.0
+obsws-python>=1.7,<2.0

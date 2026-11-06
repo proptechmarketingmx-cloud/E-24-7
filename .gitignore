@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+productos.db
+assets/latest_video.mp4
+assets/audio_output.mp3
